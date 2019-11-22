@@ -1,6 +1,7 @@
-function Lion (gender, positon) {
+function lion (gender, positon, name) {
   this.gender = gender,
-  this.positon = positon
+  this.positon = positon,
+  this.name = name
 }
 
-module.exports = Lion
+module.exports = lion

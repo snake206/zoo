@@ -1,9 +1,9 @@
-var Lion = requeri('lion')
+var lion = require('./lion')
 
 function animalManagement (animal) {
   console.log("This is the", animal.name)
 }
 
-var mufasa = new Lion ( 'male', 'leader' )
+var mufasa = new lion ('male', 'leader', 'Mufasa')
 
 animalManagement (mufasa)
