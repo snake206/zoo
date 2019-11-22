@@ -1,5 +1,5 @@
-function manageAnimal (animal) {
+function animalManagement (animal) {
   console.log("This is the", animal.name)
 }
 
-manageAnimal (lion)
+animalManagement (lion)
